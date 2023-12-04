@@ -330,6 +330,11 @@ table, th, td {
 
 input {
   border: none;
+  width: inherit;
+}
+
+.parentElement {
+  width: 5em;
 }
 
 tr:nth-of-type(odd) input {
