@@ -16,6 +16,9 @@ body
 .insecticide
     background: #f74357 !important
 
+.total-cost, .total-sell, .stock, .inline, .profit
+    background: transparentize(#e6e6e6, 0.5)
+
 .name
     text-align: center
     padding: 7px 10px
@@ -25,3 +28,15 @@ body
     font-size: 18px
     font-weight: bold
     color: green
+
+tr:nth-of-type(odd)
+    input
+        background: lighten(#4ECDC4, 30%)
+
+th
+    padding: 5px
+    background-color: #4ECDC4
+
+tr:nth-of-type(odd)
+    td
+        background-color: #d3d3d3

@@ -335,19 +335,7 @@ input {
 
 .parentElement {
   width: 5em;
-}
-
-tr:nth-of-type(odd) input {
-  background: #d9f4f2;
-}
-
-th {
-  padding: 5px;
-  background-color: #4ECDC4;
-}
-
-tr:nth-of-type(odd) td {
-  background-color: #ddd;
+  background: #fff !important;
 }
 
 body {
@@ -374,6 +362,10 @@ body {
   background: #f74357 !important;
 }
 
+.total-cost, .total-sell, .stock, .inline, .profit {
+  background: rgba(230, 230, 230, 0.5);
+}
+
 .name {
   text-align: center;
   padding: 7px 10px;
@@ -384,6 +376,19 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: green;
+}
+
+tr:nth-of-type(odd) input {
+  background: #c5efec;
+}
+
+th {
+  padding: 5px;
+  background-color: #4ECDC4;
+}
+
+tr:nth-of-type(odd) td {
+  background-color: #d3d3d3;
 }
 
 button {
