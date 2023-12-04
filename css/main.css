@@ -315,7 +315,7 @@ template {
 }
 
 body {
-  margin: 30px 0 0 30px;
+  margin: 30px;
 }
 
 table, th, td {
@@ -333,6 +333,15 @@ input {
 
 tr:nth-of-type(odd) input {
   background: #d9f4f2;
+}
+
+th {
+  padding: 5px;
+  background-color: #4ECDC4;
+}
+
+tr:nth-of-type(odd) td {
+  background-color: #ddd;
 }
 
 body {
@@ -369,15 +378,6 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: green;
-}
-
-th {
-  padding: 5px;
-  background-color: #4ECDC4;
-}
-
-tr:nth-of-type(odd) td {
-  background-color: #ddd;
 }
 
 button {
