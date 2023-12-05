@@ -315,7 +315,7 @@ template {
 }
 
 body {
-  padding: 20px 30px;
+  padding: 0 0 30px 0;
 }
 
 table, th, td {
@@ -325,7 +325,6 @@ table, th, td {
 
 .table {
   margin-bottom: 20px;
-  margin-right: 30px;
 }
 
 input {
@@ -406,4 +405,5 @@ button {
 }
 button:first-of-type {
   margin-right: 20px;
+  margin-left: 10px;
 }
