@@ -382,6 +382,10 @@ tr:nth-of-type(odd) input {
   background: #c5efec;
 }
 
+.highlight {
+  background: #c5efec !important;
+}
+
 th {
   padding: 5px;
   background-color: #4ECDC4;
